@@ -1,0 +1,142 @@
+/* login.css */
+
+.auth__form {
+    padding: 20px;
+  }
+  
+  .auth_btn {
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  .form__group input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left; /* Ensure the text is left-aligned */
+  }
+  
+  .form__group input::placeholder {
+    text-align: left; /* Left-align the placeholder text */
+  }
+  
+  @media (max-width: 768px) {
+    .auth__form {
+      padding: 15px;
+    }
+    
+    .buy_btn {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .text-2xl {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .auth__form {
+      padding: 10px;
+    }
+  
+    .buy_btn {
+      width: 100%;
+      margin-top: 5px;
+    }
+  
+    .text-2xl {
+      font-size: 1.25rem;
+    }
+  }
+  /* General Form Styles */
+.auth__form {
+  padding: 20px;
+  max-width: 400px; /* Set a max-width for better control on larger screens */
+  margin: 0 auto; /* Center the form horizontally */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+  background: #fff; /* Set a background color */
+  border-radius: 8px; /* Slightly round the corners */
+}
+
+.form__group {
+  margin-bottom: 15px; /* Add space between form groups */
+}
+
+.form__group input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: left; /* Ensure the text is left-aligned */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 4px; /* Round the input edges */
+  font-size: 1rem; /* Set a base font size */
+}
+
+.form__group input::placeholder {
+  text-align: left; /* Left-align the placeholder text */
+  color: #888; /* Lighter color for placeholder text */
+}
+
+.auth_btn {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  background-color: var(--primary-color); /* Use a primary color for the button */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth_btn:hover {
+  background-color: var(--primary-color-dark); /* Darken the button color on hover */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .auth__form {
+      padding: 15px;
+      width: 90%; /* Reduce the form width */
+  }
+
+  .auth_btn {
+      padding: 10px; /* Adjust button padding */
+      margin-top: 10px;
+      font-size: 0.9rem; /* Adjust button font size */
+  }
+
+  .form__group input {
+      padding: 8px; /* Adjust input padding */
+      font-size: 0.9rem; /* Adjust input font size */
+  }
+
+  .text-2xl {
+      font-size: 1.5rem; /* Adjust font size */
+  }
+}
+
+@media (max-width: 576px) {
+  .auth__form {
+      padding: 10px;
+      width: 100%; /* Full width on very small screens */
+  }
+
+  .auth_btn {
+      padding: 8px;
+      margin-top: 5px;
+      font-size: 0.85rem; /* Smaller font size for button */
+  }
+
+  .form__group input {
+      padding: 6px; /* Further adjust input padding */
+      font-size: 0.85rem; /* Smaller font size for input */
+  }
+
+  .text-2xl {
+      font-size: 1.25rem; /* Further adjust font size */
+  }
+}
+

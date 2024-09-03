@@ -1,0 +1,101 @@
+
+
+.filter__widget select{
+    padding: 8px 20px;
+    border: 1px solid var(--primary-color);
+    cursor: pointer;
+    border-radius: 5px;
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.filter__widget select:focus{
+    outline: none !important;
+}
+
+.filter__widget select option{
+    font-size: 0.9rem;
+}
+
+.ri-search-eye-line{
+    color: white;
+}
+.search__box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding-right: 12px;
+    padding-left: 2px;
+    cursor: pointer;
+}
+
+.search__box input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+}
+
+.search__box span{
+    color: var(--primary-color);
+}
+
+@media only screen and (max-width:768px){
+    .filter__widget{
+        margin-bottom: 30px;
+    }
+
+    .filter__widget select{
+        padding: 7px 20px;
+        font-size: 0.9rem;
+    }
+}
+
+/* shop.css */
+
+/* Fade-in animation for sections */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.6s ease-out forwards;
+}
+
+/* Slide-in effect for slider images */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.slider_section img {
+    opacity: 0;
+    animation: slideIn 0.8s ease-out forwards;
+}
+
+/* Hover effect for products */
+.product-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,253 @@
+/* General Header Styles */
+.header {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+}
+
+/* Navigation Wrapper */
+.nav_wrapper {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo Styling */
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.logo img {
+    /*padding-bottom: 20px;*/
+    width: 70px;
+    height: 70px;
+}
+
+.logo h1 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+/* Menu Styling */
+.menu {
+    display: flex;
+    align-items: center;
+    column-gap: 2.7rem;
+    margin-bottom: 0;
+}
+
+/* Navigation Items */
+.nav_item a {
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* Navigation Icons */
+.nav_icons {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.nav_icons span i {
+    font-size: 1.4rem;
+    color: white;
+    cursor: pointer;
+}
+
+/* Cart and Favorite Icons */
+.cart_icon, .fav_icon {
+    position: relative;
+}
+
+/* Badge for Cart and Favorites */
+.badge {
+    position: absolute;
+    top: 25%;
+    right: -8%;
+    width: 15px;
+    height: 15px;
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: 600;
+    z-index: 10;
+}
+
+/* Show Profile Actions */
+.show__profileActions {
+    display: block;
+}
+
+/* Profile Image */
+.nav_icons .profile img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+/* Profile Actions Dropdown */
+.nav_icons .profile {
+    position: relative;
+    z-index: 9;
+}
+
+.nav_icons .profile .profile__actions {
+    position: absolute;
+    top: 98%;
+    left: 0;
+    width: 150px;
+    z-index: 10;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: var(--card-bg-01);
+    line-height: 30px;
+    cursor: pointer;
+}
+
+/* Mobile Menu Icon */
+.mobile_menu {
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    display: none;
+}
+
+/* Active Navigation Item */
+.nav_active {
+    font-weight: 700 !important;
+}
+
+/* Sticky Header */
+.sticky__header {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 3px 3px 8px -3px #ddd;
+    background:black;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .navigation {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.53);
+        z-index: 9999;
+        display: none;
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 250px;
+        height: 100%;
+        background: black;
+        z-index: 99999;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .active__menu {
+        display: block;
+    }
+
+    .mobile_menu {
+        display: block;
+    }
+
+    .mobile_menu span i {
+        font-size: 1.1rem !important;
+    }
+
+    .logo img {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .logo h1 {
+        font-size: 1rem;
+    }
+
+    .fav_icon i, .cart_icon i {
+        font-size: 1.2rem !important;
+    }
+
+    .nav_icons span img {
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+
+    .header {
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .show__profileActions {
+        display: block;
+    }
+
+    /* Profile Actions Dropdown Responsive */
+    .nav_icons .profile .profile__actions {
+        position: fixed;
+        top: 60px;
+        right: 20px;
+        width: 180px;
+        background: var(--card-bg-01);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+}
+
+/* Hide the mobile menu by default */
+.mobile__menu {
+    display: none;
+  }
+  
+  /* Show the mobile menu on screens smaller than 768px */
+  @media (max-width: 768px) {
+    .mobile__menu {
+      display: block;
+    }
+  
+    /* Hide the desktop menu on smaller screens */
+   
+  }
+
+  /* Example media query for mobile view */
+@media (max-width: 768px) {
+    .logo img {
+      /*max-width: 100%;*/
+      width: 50px;
+      height: auto;
+    }
+    
+    
+  
+    /* Ensure the logo is visible and has proper spacing */
+.header .logo{
+      /*padding: 10px;*/
+    }
+  }
+  

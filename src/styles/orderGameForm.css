@@ -1,0 +1,123 @@
+/* General body styles */
+
+  /* Container styling */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Headings */
+  
+  /* Buttons */
+  button, .btn {
+    background-color: #36d7b7;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover, .btn:hover {
+    background-color: #2cb6a2;
+  }
+  
+  /* Form Elements */
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="password"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #111;
+    color: #f9f9f9;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="number"]:focus,
+  input[type="password"]:focus,
+  textarea:focus,
+  select:focus {
+    outline: none;
+    border-color: #36d7b7;
+    box-shadow: 0 0 5px rgba(54, 215, 183, 0.5);
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #111;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .navbar a {
+    color: #f9f9f9;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .navbar a:hover {
+    background-color: #36d7b7;
+    color: #000;
+    border-radius: 5px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #111;
+    color: #f9f9f9;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #333;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Utility classes */
+  .text-center {
+    text-align: center;
+  }
+  
+  .mt-20 {
+    margin-top: 20px;
+  }
+  
+  .mb-20 {
+    margin-bottom: 20px;
+  }
+  
+  .pt-20 {
+    padding-top: 20px;
+  }
+  
+  .pb-20 {
+    padding-bottom: 20px;
+  }
+  
+  /* Form title styling */
+  .form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;
+    }
+  }
+  
