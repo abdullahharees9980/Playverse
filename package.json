@@ -2,7 +2,7 @@
   "name": "maltimart-ecommerce",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://abdullaharees9980.github.io/playverse",
+  "homepage": "http://abdullahharees9980.github.io/playverse",
   "dependencies": {
     "@react-spring/web": "^9.7.4",
     "@reduxjs/toolkit": "^1.8.5",
