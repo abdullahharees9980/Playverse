@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/playverse/static/css/main.328e40aa.css",
+    "main.js": "/playverse/static/js/main.ce47eea5.js",
+    "static/media/remixicon.svg?t=1590207869815": "/playverse/static/media/remixicon.9cedd2150922ead84869.svg",
+    "static/media/Screenshot 2024-08-19 171422.png": "/playverse/static/media/Screenshot 2024-08-19 171422.f551f9c8a96b0faa59d9.png",
+    "static/media/remixicon.eot?t=1590207869815": "/playverse/static/media/remixicon.5cb99e6cba5a4619063f.eot",
+    "static/media/remixicon.ttf?t=1590207869815": "/playverse/static/media/remixicon.f2616f597cf98f38d234.ttf",
+    "static/media/remixicon.woff?t=1590207869815": "/playverse/static/media/remixicon.8d09fa11700ed63cf96e.woff",
+    "static/media/remixicon.woff2?t=1590207869815": "/playverse/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
+    "static/media/banner.jpg": "/playverse/static/media/banner.255026c55625a1c1bc89.jpg",
+    "static/media/slick.svg": "/playverse/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/playverse/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/playverse/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/playverse/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/playverse/index.html",
+    "main.328e40aa.css.map": "/playverse/static/css/main.328e40aa.css.map",
+    "main.ce47eea5.js.map": "/playverse/static/js/main.ce47eea5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.328e40aa.css",
+    "static/js/main.ce47eea5.js"
+  ]
+}
